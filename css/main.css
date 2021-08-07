@@ -9,59 +9,158 @@ body{
 .header{
     justify-content: space-between;
     align-items: center;
-    /* padding-bottom: 10px; */
-    padding-right: 20px;
+    padding-bottom: 1px;
     padding-left: 20px;
     background-color: black;
+    border: 0.4rem yellow;
+    border-style: none none solid none;
+    
 }
-
 .header h3{
     color: yellow;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 10px;
+    margin-top: 5px;
+
+}
+.header nav{
+    padding-bottom: 15px;
+    padding-right: 20px; 
 }
 
 .header nav a{
     text-decoration: none;
     color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-left: 10px;
+
+} 
+
+.header .font1 {
+    font-family: 'Imbue', serif;;
+    font-size: 20px;
+}
+
+.header nav a:hover{
+    color:khaki;
+}
+
+.wordspacing{
+    word-spacing: 5px;
 }
 
 .headline h3{
     text-align: center;
     background-color: grey;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin:0;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+u{
+    text-decoration: yellow underline;
 }
 
 /* banner_section */
 .banner{
-    background-image: url("http://placehold.it/300x400");
+    background-image: url("../img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg");
     background-size: cover;
-    height: 400px;
-    padding:50px 0;
+    height: 550px;
+    padding-top: 80px;
+    padding-bottom: 30px;
     justify-content: flex-end;
     align-items: center; 
+    margin-bottom: 10px;
 }
 
-.banner section{
-    background-color: hotpink;
-    width: 30%;
-    height: 50%;
+.banner .section{
+    background-color:rgba(247, 250, 252, 0.87);
+    /* opacity:0.7; */
+    color: black;
+    width: 21%;
     justify-content: flex-start;
+    
 }
 .section{
     text-align: center;
     margin-right: 20px;
-    padding: 30px 30px;
+    padding: 38px 25px;
+}
+.section h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+}
+.section p{
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+ div .button{
+    padding: 10px 50px;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+div .button:hover{
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.904);
 }
 
 /* search item */
 .search .item{    
-    padding: 30px
+    padding: 30px;
+    background-color:whitesmoke;
+    border:solid grey;
+    margin-right:20px;
+    margin-bottom: 20px;
+    width:80%;
+    height: 200px;
+    box-shadow: 12px 12px 2px 1px  lightgrey;
+   
 }
+.search .item:first-child{
+    margin-left: 20px;
+}
+
+.item .button{
+    padding: 10px 70px;
+    background-color:honeydew;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid;
+    /* border-radius: 10%; */
+} 
+
+.item .button:hover{
+    color:gold;
+    background-color: black;
+}
+.item h3{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /* footer */
 footer{
-    padding: 10px 10px;
+    font-size: 13px;
+    padding: 10px 5px;
     background-color: black;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
